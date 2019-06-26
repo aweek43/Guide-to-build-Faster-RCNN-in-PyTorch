@@ -43,7 +43,7 @@
 -16. 각 예측 anchor마다 최대 iou를 가지는 gt box를 찾는다.
 
 -17. 최대 iou가 0.7 이상인 것들 중에 랜덤하게 mini batch size * 0.25개 뽑는다.
--17-1. 최대 iou가 0.5 이하인 것들 중에 랜덤하게 나머지 mini batch size만큼 뽑는다.
+- 17-1. 최대 iou가 0.5 이하인 것들 중에 랜덤하게 나머지 mini batch size만큼 뽑는다.
 
 -18. 최대 iou가 0.5 이하는 예측 anchor은 label을 0(background)로 설정한다.
 
